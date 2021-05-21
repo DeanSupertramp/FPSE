@@ -82,7 +82,7 @@ Da notare che il valore della variabile n salvata in r3 viene spostata in r0. Il
 Si pone un altro breakpoint all'interno del loop realizzato con il while. Si riportano le variabili in Fig. 7 e i registri in Fig.8.
 
 <p align="center">
-<img src="Img/7png" width="600">
+<img src="Img/7.png" width="600">
 </p>
 
 Il registro r2, che contiene il valore di sum, risulta essere pari a zero. Nell'iterazione successiva, si incrementa i, da 0 a 1. Di conseguenza, il valore di sum viene aggiornato anch'esso (1*1)+0, come riportati in Fig. 9 e Fig. 10.
