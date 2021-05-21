@@ -42,8 +42,12 @@ int sqsum(int n){
   return sum;
 }
 ```
+
+Si avvia la modalità di debug, confermata dal fatto che la scheda lampeggia. Il debugger si ferma alla funzione HAL Init(), le variabili visibili risultano essere come quelle riportate in Fig. 1
 <p align="center">
 <img src="Img/1.png" width="600">
+    
+Dove si può notare che le variabili, non ancora inizializzate, assumono valori random o assunti precedentemente. I registri assumono lo stato riportato in Fig. 2.
 
 <img src="Img/2.png" width="600">
 <img src="Img/3.png" width="600">
