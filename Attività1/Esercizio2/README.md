@@ -43,7 +43,7 @@ int sqsum(int n){
 }
 ```
 
-<img src="Img/1.png" width="800">
+<img src="Img/1.png" align="center" width="800">
 
 <img src="Img/2.png" width="800">
 <img src="Img/3.png" width="800">
