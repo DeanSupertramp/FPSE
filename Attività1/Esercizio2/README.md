@@ -43,4 +43,4 @@ int sqsum(int n){
 }
 ```
 
-![](Img/1.jpg)
+![](Img/1.png)
