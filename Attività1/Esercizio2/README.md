@@ -44,3 +44,15 @@ int sqsum(int n){
 ```
 
 <img src="Img/1.png" width="800">
+
+<img src="Img/2.png" width="800">
+<img src="Img/3.png" width="800">
+<img src="Img/4.png" width="800">
+<img src="Img/5.png" width="800">
+<img src="Img/6.png" width="800">
+<img src="Img/7png" width="800">
+<img src="Img/8.png" width="800">
+<img src="Img/9.png" width="800">
+<img src="Img/10.png" width="800">
+<img src="Img/11.png" width="800">
+<img src="Img/12.png" width="800">
