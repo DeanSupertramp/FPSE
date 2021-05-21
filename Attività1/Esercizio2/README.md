@@ -44,5 +44,3 @@ int sqsum(int n){
 ```
 
 <img src="Img/1.png" width="800">
-
-![](Img/1.png)
