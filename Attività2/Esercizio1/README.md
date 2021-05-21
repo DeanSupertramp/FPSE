@@ -1,2 +1,7 @@
-# Esercizio 1
+## Esercizio 1
 Scrivere del codice C che, operando su un valore a 8 bit (unsigned char), confguri i bit 4, 5 e 6 rispettivamente ai valori 1, 0 e 1; lasciando tutti i restanti a 0. Se l'operazione può essere eseguita con diversi operatori, riportare nel codice tutte le soluzioni che vengono in mente.
+
+## Svolgimento
+
+Il valore a 8 bit atteso dopo l'operazione risulta essere 00101000, ovvero 0x28 in esadecimale oppure 40 in decimale; si definisce dunque una variabile mask di tipo const unsigned
+2 char, di tale valore, utile ai fini delle operazioni richieste. Si inizializza inoltre val con un valore arbitrario come variabile di input. Si realizzano per lo scopo due funzioni, che accettano in ingresso una generica variabile unsigned char e restituiscono lo stesso tipo dato sulla quale è stata effettuata l'operazione richiesta. Ciò che distingue le due funzioni è il metodo con il quale si effettua l'operazione. Nella prima funzione setBit(), viene effettuata un semplice set dei bit[4] e bit[5] tramite la mask precedentemente inizializzata, resettando gli altri bit. La seconda funzione accetta e restituisce valori in modo analogo alla precedente, ma effettua operazioni bitwise differenti sul dato, applicando un clear su tutti i bit tranne bit[4] e bit[5] ed infine settando gli stessi bit a 1, escludendo gli altri. Infine, nel main() si eseguono una serie di printf() per mostrare su terminale il dato iniziale e il risultato delle due funzioni, che risultano uguali e corrette.
