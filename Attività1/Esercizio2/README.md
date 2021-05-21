@@ -42,8 +42,8 @@ int sqsum(int n){
   return sum;
 }
 ```
-
-<img src="Img/1.png" align="center" width="800">
+<p align="center">
+<img src="Img/1.png" width="800">
 
 <img src="Img/2.png" width="800">
 <img src="Img/3.png" width="800">
@@ -56,3 +56,4 @@ int sqsum(int n){
 <img src="Img/10.png" width="800">
 <img src="Img/11.png" width="800">
 <img src="Img/12.png" width="800">
+</p>
