@@ -13,7 +13,7 @@ La prima parte del codice contenuto nel main() è relativo alla configurazione d
 ```c
 RCC->AHB1ENR |= 0x3; // 0x3 - 00000011 - 3
 ```
-verificando il corretto settaggio tramite interfaccia di debug, come visibile in Fig. 2. Si configurano inizialmente i GPIO della porta A, come input e abilitandoli in modalita pull-up:
+verificando il corretto settaggio tramite interfaccia di debug, come visibile in Fig. 2. Si configurano inizialmente i GPIO della porta A, come input e abilitandoli in modalità pull-up:
 
 ```c
 /** GPIOA Configuration **/ // Used as INPUT
@@ -35,14 +35,14 @@ GPIOA->ODR |= (0x03 << 11); // Output high
 ```
 
 <p align="center">
-<img src="Img/3.png" width="600">
+<img src="Img/3.PNG" width="600">
 </p>
 
 Stesso procedimento per i GPIO relativi alla porta B. Per questo esercizio di decide di utilizzare il metodo di polling per interrogare costantemente lo stato dei pulsanti e nel caso in cui viene rilevata una pressione, effettuare il toggle del led associato. Tale logica viene implementata in un ciclo infinito tramite un while(). Prendendo come esempio una coppia pulsante/led, se viene premuto il pulsante, il valore nel registro IDR relativo alla porta interessata diventa zero (perchè gli input sono normalmente alti, in quanto configurati con pull-up attivo): al verificarsi di questa condizione, si effettua un toggle sul valore del registro ODR di uscita del led associato. Per aumentare l'affidabilità delle letture, si implementa un semplice debouncing software tramite la funzione HAL Delay() fornita dal driver HAL.
 
 ```c
 if(!(GPIOA->IDR >> 10 & 0x1)){ // PA_10
-GPIOB->ODR ^= (0x1 << 10); // PB_10
-HAL_Delay(400); // Simple deboucing
+  GPIOB->ODR ^= (0x1 << 10); // PB_10
+  HAL_Delay(400); // Simple deboucing
 }
 ```
