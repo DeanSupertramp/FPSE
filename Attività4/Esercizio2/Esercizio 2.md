@@ -1,0 +1,7 @@
+## Esercizio 2
+
+Sfruttare ADC e DAC per simulare la gestione di un sistema di monitoraggio di temperatura, molto semplificato.
+
+Il programma legge, anche in polling, il valore di temperatura fornito da un sensore analogico e controlla ciclicamente se il valore letto supera una determinata soglia (scelta in maniera adeguata vista l'applicazione); se la soglia viene superata si interrompe la fase di lettura per passare ad una fase di generazione di un segnale analogico costante (pari a 1.5V) per 10 secondi, durante la quale si può accendere un LED rosso di segnalazione.
+Per controllare la corretta generazione del segnale è possibile utilizzare un altro ingresso analogico, sul quale viene collegata l'uscita del DAC. Passati i 10 secondi, il programma ricomincia a leggere e controllare il valore di temperatura come fatto inizialmente. Si suppone che nell'arco di 10 secondi la temperatura non sia più superiore alla soglia: si lascia alla fantasia l'immaginare un qualche stratagemma che, nell'arco di quei 10 secondi, raffreddi il sensore. Per rendere l'esercizio più completo si potrebbe infine aggiungere una modulazione del segnale analogico generato tramite un potenziometro.
+Si noti che, ovviamente, questo ha solo lo scopo di essere un esercizio per prendere familiarità con i sensori analogici, l'ADC e le uscite del DAC, non ha la pretesa di essere un vero sistema di monitoraggio e gestione della temperatura.
