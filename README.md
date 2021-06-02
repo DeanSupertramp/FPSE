@@ -7,7 +7,7 @@ Repository per il corso di Fondamenti di Programmazione dei Sistemi Embedded 202
 
 
 ## Table of Contents
-* [General Info](#FPSE)
+* [General Info](#FPSE/Attività1/)
 
 <!-- * [License](#license) -->
 
