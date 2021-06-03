@@ -1,0 +1,2 @@
+avg_lib.c:5:7:movingAvg	24	static
+avg_lib.c:11:6:updateAvg	24	static

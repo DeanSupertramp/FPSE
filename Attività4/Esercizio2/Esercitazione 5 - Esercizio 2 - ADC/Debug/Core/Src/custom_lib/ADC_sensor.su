@@ -1,0 +1,5 @@
+ADC_sensor.c:3:7:getADCraw	40	static
+ADC_sensor.c:17:7:getLM35	40	static
+ADC_sensor.c:22:7:getTMP36	40	static
+ADC_sensor.c:27:7:getInternalTemp	40	static
+ADC_sensor.c:32:6:ADC_config	24	static
