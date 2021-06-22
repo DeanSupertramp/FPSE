@@ -1,0 +1,7 @@
+MPU6050_lib.c:11:6:MPU6050_Init	24	static
+MPU6050_lib.c:92:6:MPU6050_Read_RawData	40	static
+MPU6050_lib.c:124:6:MPU6050_Read_ScaledData	16	static
+MPU6050_lib.c:139:6:MPU6050_Get_Accel_Scale	16	static
+MPU6050_lib.c:148:6:MPU6050_Get_Gyro_Scale	16	static
+MPU6050_lib.c:157:6:I2C_Read	32	static
+MPU6050_lib.c:166:6:I2C_Write8	32	static
