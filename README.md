@@ -2,7 +2,7 @@
 Repository per il corso di Fondamenti di Programmazione dei Sistemi Embedded 2020/2021
 
 ## Info generali
-Su questa repository vengono riportati tutti gli esercizi e le risposte svolti durante il corso. I progetti/codici prodotti sono stati sviluppati in **STM32CubeIDE**. La scheda di sviluppo utilizzata è la **STM32 Nucleo-F446RE**. Viene inoltre riportato il progetto di fine corso.
+Su questa repository vengono riportate tutte le attività svolte durante il corso. I progetti/codici prodotti sono stati sviluppati in **STM32CubeIDE**. La scheda di sviluppo utilizzata è la **STM32 Nucleo-F446RE**. Viene inoltre riportato il progetto di fine corso.
 
 
 ## Indice degli argomenti trattati nelle attività
