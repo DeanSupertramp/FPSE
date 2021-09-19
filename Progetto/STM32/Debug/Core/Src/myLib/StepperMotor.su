@@ -1,0 +1,10 @@
+StepperMotor.c:6:6:setDirection	16	static
+StepperMotor.c:16:6:getDirection	16	static
+StepperMotor.c:24:6:setSpeed	24	static
+StepperMotor.c:38:6:setSpeedPID	24	static
+StepperMotor.c:57:6:simpleGO	16	static
+StepperMotor.c:73:6:goForward	40	static
+StepperMotor.c:85:6:goBackward	40	static
+StepperMotor.c:97:6:rotateL	48	static
+StepperMotor.c:111:6:rotateR	48	static
+StepperMotor.c:124:6:stopMotor	24	static

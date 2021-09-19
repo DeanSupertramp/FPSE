@@ -1,0 +1,6 @@
+MPU6050.c:4:6:MPU6050_Init	32	static
+MPU6050.c:30:6:MPU6050_reset	32	static
+MPU6050.c:36:6:MPU6050_getStatus	32	static
+MPU6050.c:45:6:MPU6050_Read_Accel	48	static
+MPU6050.c:75:6:MPU6050_Read_Gyro	32	static
+MPU6050.c:105:6:MPU6050_Calibration	24	static
