@@ -10,8 +10,8 @@
 
 AsyncWebServer server(80);
 
-const char* ssid = "Vodafone-A73226670";
-const char* password = "qF7gLF6TkygKeHKg";
+const char* ssid = "MY-SSID";
+const char* password = "MY-PASS";
 
 const char* PARAM_MESSAGE = "message";
 
