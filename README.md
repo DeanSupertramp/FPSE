@@ -5,7 +5,7 @@ Repository per il corso di Fondamenti di Programmazione dei Sistemi Embedded 202
 Su questa repository vengono riportate tutte le attività svolte durante il corso. I progetti/codici prodotti sono stati sviluppati in **STM32CubeIDE**. La scheda di sviluppo utilizzata è la **STM32 Nucleo-F446RE**. Viene inoltre riportato il progetto di fine corso proposto, ovvero un _Self Balancing Robot_.
 
 
-## Indice degli argomenti trattati nelle attività
+## Indice degli argomenti
 1. [Attività 1 - STM32 Programmazione Base](https://github.com/DeanSupertramp/FPSE/tree/main/Attivit%C3%A01)    <img src="https://img.shields.io/badge/stato-ok-green"/>
 2. [Attività 2 - Digital IO e GPIO](https://github.com/DeanSupertramp/FPSE/tree/main/Attivit%C3%A02) <img src="https://img.shields.io/badge/stato-ok-green"/>
 3. [Attività 3 - GPIO e Interrupt](https://github.com/DeanSupertramp/FPSE/tree/main/Attivit%C3%A03) <img src="https://img.shields.io/badge/stato-ok-green"/>
