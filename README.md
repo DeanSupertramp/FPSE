@@ -12,7 +12,7 @@ Su questa repository vengono riportate tutte le attività svolte durante il cors
 4. [Attività 4 - IO Analogico](https://github.com/DeanSupertramp/FPSE/tree/main/Attivit%C3%A04) <img src="https://img.shields.io/badge/stato-ok-green"/>
 5. [Attività 5 - Timers e PWM](https://github.com/DeanSupertramp/FPSE/tree/main/Attivit%C3%A05) <img src="https://img.shields.io/badge/stato-ok-green"/>
 6. [Attività 6 - Comunicazione Seriale](https://github.com/DeanSupertramp/FPSE/tree/main/Attivit%C3%A06) <img src="https://img.shields.io/badge/stato-ok-green"/>
-7. [Progetto - Self Balancing Robot](https://github.com/DeanSupertramp/FPSE/tree/main/Progetto) <img src="https://img.shields.io/badge/stato-no-red"/>
+7. [Progetto - Self Balancing Robot](https://github.com/DeanSupertramp/FPSE/tree/main/Progetto) <img src="https://img.shields.io/badge/stato-ok-green"/>
 
 <!-- * [License](#license) -->
 
